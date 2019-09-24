@@ -1,0 +1,68 @@
+Group Project 1
+Team 19
+
+
+1. NISS DATA
+     The MAPI Project is affiliated with NISS (National Institutes of Statistical Sciences). The MAPI survey is conducted to understand the demand for data analytics skills in the manufacturing workforce today. The survey results of this research will help manufacturing leaders identify the roles, skills, and educational background needed in new hires as well as training programs peers are providing to develop skills in-house. This survey might change the way of employers providing trainings to their employees. If there is a significant relationship between any kind of training and hiring result and company profit, it might lead to the change of training preference of both employers and employees. 
+This result of data can also provide some information for the business about the type of training which can lead to more profits. Obviously, this data can be applied to almost all the business industries which always require the workers to catch up with the progress the industry and always provide the workers with training programs. Training programs now is much more crucial than before because nowadays there are more ways to learn different things and then people are more likely to do the job which is not that associated with what they have learnt before. 
+Our group think this business might be pretty new because the traditional training method is still popular, and the digital training is just available because of the rapid improvement of technology nowadays. When we analyze the relationship between these factors, we can know more about the current situation of the new training method as well as its efficiency, which also makes this data unique. This is also what our group will explore more to give more details.
+
+
+
+
+
+2. DIGIT RECOGNITION DATA
+The accuracy of optical recognition has been a popular topic in machine learning ever since the 90s. Numerous studies have been done to analyze and improve the accuracy of this method. In this project, analysis of the accuracy is done on the famous UCI Recognition of Handwritten Digits dataset with four specific and typical machine learning models, each is evaluated by the group in order to come up with the best with the highest accuracy. 
+
+This is also a pretty new business as the technology becomes more and more advanced. Nowadays, we are faced with more and more two-dimensional code which might contain the information like a person’s identity, the price of a product. Which makes this unique is that it gives us more information about how the digit recognition works and how it can be improved to contain more types of information to make our life more convenient. 
+
+    Right after the presence of such explicit and large dataset, numerous studies have been done. This multivariate dataset consists of integers as inputs –0 to 16 –which are sum of each 4*4 block in 32*32 bitmap, details will be given in Methodology section. The specific task associated in this study is classification.  For this project, we first performed a thorough research and discussion regarding the dataset and analysis method, then each of the team members constructed a test for the accuracy with a specific machine learning method –SVM, Logistic Regression, K-NN, Random Forest. This will discuss the dataset, theory of recognition, procedure of analysis with each machine learning model, investigation of results, conclusion, and possible future work. 
+
+    
+3. HOUSE PRICE DATA
+  Our idea is to use four elements of the houses, and then explore how these four elements are associated with the house price. This can be applied to consulting industry which always requires data to analyze the tendency and give suggestions. 
+
+  The reason why the idea is unique is that this can give the home buyers a method to have an approximate idea as well as balance their requirements and their budgets before actually taking action. 
+
+  We think this is a pretty new idea because the consulting business is getting popular as people realize that specialized knowledge and skills can help increase the accuracy of the prediction, but it did not attract too much attention in the past when people used to make predictions and decisions by themselves. For example, we can ask a home buyer to describe their dream house and give a price prediction based on the description. Then, the home buying can have an idea about whether his/her requirements are realistic or not based on the budget. 
+
+  We plan to use four qualities of a house. The qualities can be more in the reality in order to make the result more accurate, but we just use four to explain it briefly. They are: OverallQual - Rates the overall material and finish of the house; OverallCond - Rates the overall condition of the house; FullBath - Number of full baths; BedroomAbvGr - Bedrooms above grade (does NOT include basement bedrooms). The last one is the prediction price. Obviously, there will be some realtionships among these five elements.
+
+
+
+
+
+Here is more about what we do for this assignment.
+    160 survey responses were collected in this study and 126 full respondents are collected. For this assignment, only 5 survey categories are provided for examining the relationship between demographics (Q5, Q35, Q38) and digital training (Q19) and in-person training (Q20). The detailed explanation of each category is provided as following: 
+    
+• Q5: For how long have you worked at the company you work at currently?
+    This variable includes seven factors: Less than a year, 1 – 3 years, 4 – 7 years, 8 – 10 years, 11 – 15 years, 16 – 20 years and More than 20 years. 
+
+• Q35: Please estimate your company or business unit’s sales in the most recent fiscal year.
+    This variable includes four factors: LESS THAN $1B, $1B TO $2.9B, $3B TO $9.9B and $10 OR GREATER. 
+
+• Q38: Which of the following is closest to your current job title?
+    This variable includes two factors: Manager and Executive
+
+• Q19: Has your organization provided digital training and development programs to enhance existing employee’s skills in data science, data analytics and its applications?
+    This variable includes six factors: 
+    •Yes, we introduced it in the last 12 months 
+    •Yes, we introduced it in the last 12 to 36 months 
+    •Yes, for at least 36 months 
+    •No, but considering introducing it 
+    •No, not considering 
+    •Not applicable 
+
+• Q20: Has your organization provided in-person training and development programs to enhance existing employee’s skills in data science, data analytics and its applications? 
+    This variable includes six factors: 
+    •Yes, we introduced it in the last 12 months 
+    •Yes, we introduced it in the last 12 to 36 months 
+    •Yes, for at least 36 months 
+    •No, but considering introducing it 
+    •No, not considering 
+    •Not applicable 
+
+Our goal is to test if there is a relationship between in-person training and demographics, and between digital training and demographics. After aggregating the data into a cross table, we apply chi-square test to the cross table, and find several significant relationships. The introduction of In-person Training (Q20) is highly related to Job Titles (Q38) and Working Years (Q5), while the introduction of Digital Training (Q19) is only related to Job Titles (Q38). In all, Executives responded that their organizations had more in-person training, whereas the response by managers reported less in-person training. The employees that have worked for 8-15 years have taken the most in-person trainings offered by their organization. 
+
+The survey has other questions that ask for other factors that might have significant relationships with demographics. One of such questions asks: In general, what type(s) of analytics is your function/department currently implementing and/or considering implementing? For this question, we create five more columns for examining the relationship between types of analytics and demographics. In addition to finding the relationship of training and demographics, we also apply tests for education and hiring preference. In all, there will be a more detailed analysis on which types of training and skill are preferred by companies, which type of training and skill can bring profits to the company and which type of training and skill offer more opportunities to the employees and could help them climb to a better title. 
+
